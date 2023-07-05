@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+ul{
+height: 70px;
+gap: 50px;
+font-size: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: darkorchid;
+}
+li{
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    list-style: none;
+    transition: 1s;
+
+}
+li:hover{
+    border-bottom: 5px solid #fff;
+
+}
